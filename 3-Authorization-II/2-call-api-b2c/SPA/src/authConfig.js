@@ -12,22 +12,22 @@ import { LogLevel } from "@azure/msal-browser";
  */
 export const b2cPolicies = {
     names: {
-        signUpSignIn: 'B2C_1_susi_v2',
+        signUpSignIn: 'B2C_1_signupsignin1',
         forgotPassword: 'B2C_1_reset_v3',
-        editProfile: 'B2C_1_edit_profile_v2',
+        editProfile: 'B2C_1_profileediting1',
     },
     authorities: {
         signUpSignIn: {
-            authority: 'https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/b2c_1_susi_v2',
+            authority: 'https://karanorgdatadna.b2clogin.com/karanorgdatadna.onmicrosoft.com/b2c_1_signupsignin1',
         },
         forgotPassword: {
-            authority: 'https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/B2C_1_reset_v3',
+            authority: 'https://karanorgdatadna.b2clogin.com/karanorgdatadna.onmicrosoft.com/B2C_1_reset_v3',
         },
         editProfile: {
-            authority: 'https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/b2c_1_edit_profile_v2',
+            authority: 'https://karanorgdatadna.b2clogin.com/karanorgdatadna.onmicrosoft.com/b2c_1_profileediting1',
         },
     },
-    authorityDomain: 'fabrikamb2c.b2clogin.com',
+    authorityDomain: 'karanorgdatadna.b2clogin.com',
 };
 
 
@@ -38,7 +38,7 @@ export const b2cPolicies = {
  */
 export const msalConfig = {
     auth: {
-        clientId: '09dd92cf-78ba-4c25-94b2-ec3f3ef84352', // This is the ONLY mandatory field that you need to supply.
+        clientId: '335e13d9-06d3-41cf-826a-080a092fbbbb', // This is the ONLY mandatory field that you need to supply.
         authority: b2cPolicies.authorities.signUpSignIn.authority, // Choose SUSI as your default authority.
         knownAuthorities: [b2cPolicies.authorityDomain], // Mark your B2C tenant's domain as trusted.
         redirectUri: '/', // You must register this URI on Azure Portal/App Registration. Defaults to window.location.origin
@@ -84,8 +84,8 @@ export const protectedResources = {
     apiTodoList: {
         endpoint: 'http://localhost:5000/api/todolist',
         scopes: {
-            read: ['https://fabrikamb2c.onmicrosoft.com/TodoList/ToDoList.Read'],
-            write: ['https://fabrikamb2c.onmicrosoft.com/TodoList/ToDoList.ReadWrite'],
+            read: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.Read'],
+            write: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.ReadWrite'],
         },
     },
 };
