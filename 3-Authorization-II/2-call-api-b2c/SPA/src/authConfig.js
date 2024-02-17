@@ -82,7 +82,7 @@ export const msalConfig = {
  */
 export const protectedResources = {
     apiTodoList: {
-        endpoint: 'https://lively-smoke-00e349c0f.4.azurestaticapps.net',
+        endpoint: 'https://lively-smoke-00e349c0f.4.azurestaticapps.net/api/todolist',
         scopes: {
             read: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.Read'],
             write: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.ReadWrite'],
