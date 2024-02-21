@@ -147,7 +147,6 @@ const PageComponent = () => {
                               <span className="nature hover-target">Puppy</span>
                               <span className="rabbit hover-target" style={{display: isLoggedIn ? '' : 'none'}}>Rabbit</span>
                             </p>
-                          
                         </div>
                           
                       </div>
