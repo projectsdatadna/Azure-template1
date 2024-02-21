@@ -1,14 +1,11 @@
+import React from 'react';
 import { AuthenticatedTemplate } from "@azure/msal-react";
-import { NavigationBar } from "./NavigationBar";
+import MyComponent from './Mycomponent';
 
 export const PageLayout = (props) => {
     return (
         <>
-            <NavigationBar />
-            <br />
-            <h5>
-                <center>Welcome to the Microsoft Authentication Library For React Tutorial</center>
-            </h5>
+            <MyComponent />
             <br />
             {props.children}
             <br />

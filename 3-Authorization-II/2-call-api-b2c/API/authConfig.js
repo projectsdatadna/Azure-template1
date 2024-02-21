@@ -1,7 +1,7 @@
 const passportConfig = {
     credentials: {
         tenantName: 'karanorgdatadna.onmicrosoft.com',
-        clientID: '67ebfa90-9744-4f20-bdd8-801d46b7198f',
+        clientID: 'ea2568bd-84f8-4e8d-a4ec-cf565cad833b',
     },
     policies: {
         policyName: 'B2C_1_signupsignin1',

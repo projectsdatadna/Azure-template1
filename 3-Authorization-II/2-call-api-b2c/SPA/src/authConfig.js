@@ -38,7 +38,7 @@ export const b2cPolicies = {
  */
 export const msalConfig = {
     auth: {
-        clientId: '335e13d9-06d3-41cf-826a-080a092fbbbb', // This is the ONLY mandatory field that you need to supply.
+        clientId: 'a36dd5d8-2697-468f-8241-be378ebd4d32', // This is the ONLY mandatory field that you need to supply.
         authority: b2cPolicies.authorities.signUpSignIn.authority, // Choose SUSI as your default authority.
         knownAuthorities: [b2cPolicies.authorityDomain], // Mark your B2C tenant's domain as trusted.
         redirectUri: '/', // You must register this URI on Azure Portal/App Registration. Defaults to window.location.origin
@@ -82,7 +82,7 @@ export const msalConfig = {
  */
 export const protectedResources = {
     apiTodoList: {
-        endpoint: 'https://lively-smoke-00e349c0f.4.azurestaticapps.net/api/todolist',
+        endpoint: 'http://localhost:5000/api/todolist',
         scopes: {
             read: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.Read'],
             write: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.ReadWrite'],
