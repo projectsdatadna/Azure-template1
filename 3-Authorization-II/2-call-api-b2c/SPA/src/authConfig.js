@@ -82,7 +82,7 @@ export const msalConfig = {
  */
 export const protectedResources = {
     apiTodoList: {
-        endpoint: 'http://localhost:5000/api/todolist',
+        endpoint: 'https://proud-flower-05efbf20f.4.azurestaticapps.net/api/todolist',
         scopes: {
             read: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.Read'],
             write: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.ReadWrite'],

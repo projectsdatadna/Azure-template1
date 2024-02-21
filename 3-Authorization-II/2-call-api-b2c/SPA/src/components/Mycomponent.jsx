@@ -139,15 +139,15 @@ const PageComponent = () => {
                           <div className="dancing">take care</div>
                         </div>
                        
-                        <div className="col-12 text-center mt-4 mt-lg-5" style={{display: isLoggedIn ? 'block' : 'none' }}>
-                        
-                        <p>
-                          <span className="travel hover-target">Birds</span> 
-                          <span className="wildlife hover-target">Kitten</span> 
-                          <span className="nature hover-target">Puppy</span>
-                          <span className="rabbit hover-target">Rabbit</span>
-                        </p>
-                        
+                        <div className="col-12 text-center mt-4 mt-lg-6">
+                          
+                            <p>
+                              <span className="travel hover-target">Birds</span> 
+                              <span className="wildlife hover-target">Kitten</span> 
+                              <span className="nature hover-target">Puppy</span>
+                              <span className="rabbit hover-target" style={{display: isLoggedIn ? '' : 'none'}}>Rabbit</span>
+                            </p>
+                          
                         </div>
                           
                       </div>
