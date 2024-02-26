@@ -156,214 +156,12 @@ body{
    background: rgba(255,255,255,1);
    border-color: transparent;
  }
- 
- @media screen and (max-width: 1200px){
-   .cursor,.cursor2,.cursor3,.cursor4{
-     display: none
-   }
- }
-
- .birds1{
-  background-image: url('../image/bird1.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px;
- 
- }
-
- .birds2{
-  background-image: url('../image/bird2.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px;
- }
-
- .birds3{
-  background-image: url('../image/bird3.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .birds4{
-  background-image: url('../image/bird4.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
- 
- .birds5{
-  background-image: url('../image/bird5.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .birds6{
-  background-image: url('../image/bird6.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .puppys1{
-  background-image: url('../image/puppys1.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .puppys2{
-  background-image: url('../image/puppys2.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .puppys3{
-  background-image: url('../image/puppys3.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .puppys4{
-  background-image: url('../image/puppys4.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .puppys5{
-  background-image: url('../image/puppys5.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .puppys6{
-  background-image: url('../image/puppys1.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
-
- .rabbits1{
-  background-image: url('../image/rabbits1.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .rabbits2{
-  background-image: url('../image/rabbits2.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .rabbits3{
-  background-image: url('../image/rabbits3.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
-
- .rabbits4{
-  background-image: url('../image/rabbits4.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
-
- .rabbits5{
-  background-image: url('../image/rabbits5.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .rabbits6{
-  background-image: url('../image/rabbits6.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .kittens1{
-  background-image: url('../image/kittens1.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .kittens2{
-  background-image: url('../image/kittens2.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .kittens3{
-  background-image: url('../image/kittens3.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .kittens4{
-  background-image: url('../image/kittens4.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .kittens5{
-  background-image: url('../image/kittens5.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
-
- .kittens6{
-  background-image: url('../image/kittens6.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px
- }
 
  /* #Primary style
  ================================================== */
  
  .hero-section {
-     position: relative;
+   position: relative;
    width: 100%;
    display: block;
    overflow: hidden;
@@ -394,11 +192,6 @@ body{
    font-weight: 700;
  }
 
- @media screen and (max-width: 580px){
-   .hero-section .dancing{
-     font-size: 20px;
-   }
- }
  .hero-section p{
    font-size: 15px;
    line-height: 20px;
@@ -465,7 +258,7 @@ body{
   transform: rotateX(-10deg);
   -webkit-transition-delay: 0ms;
   transition-delay: 0ms;
-}
+ }
  .about-text {
      position: absolute;
    font-size: 17px;
@@ -660,23 +453,12 @@ body{
    letter-spacing: 1px;
    color: #866BAF;
  }
- @media screen and (max-width: 580px){
-   .contact-section a{
-     font-size: 17px;
-   }
-   .contact-section .social a{
-     margin-left: 3px;
-     margin-right: 3px;
-     font-size: 13px;
-     letter-spacing: 0;
-   }
-   
- }
+ 
 
  .travel-section,
  .wildlife-section,
  .nature-section,
- .rabbit-section {
+ .rabbit-section{
    position: fixed;
    top: 100%;
    left: 0;
@@ -684,7 +466,6 @@ body{
    width: 100%;
    height: 100vh;
    display: block;
-   
    overflow-x: hidden;
    overflow-y: auto;
    background-color: rgba(31,32,41,1);
@@ -692,6 +473,10 @@ body{
    transition: all 300ms linear;
    z-index: 10;
  }
+
+
+
+
  .travel-close,
  .wildlife-close,
  .nature-close,
@@ -743,11 +528,12 @@ body{
  .nature-section img,
  .rabbit-section img {
    margin-top: 30px;
-     width: 100%;
+   width: 100%;
    height: auto;
    display: block;
    border-radius: 4px;
    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  
  }
  .travel-section h3,
  .wildlife-section h3,
@@ -802,3 +588,68 @@ body{
      border-radius: 50%;
      box-shadow: 0 0 0 20px rgba(255,255,255,.1);
  }
+
+
+  
+ @media screen and (max-width: 1200px){
+    .cursor,.cursor2,.cursor3,.cursor4{
+      display: none
+    }
+  }
+
+  @media (max-width: 767px) {
+    .hero-section .dancing {
+      font-size: 30px;
+    }
+
+    .hero-section h1 {
+      font-size: 24px;
+    }
+
+    .section-center {
+      padding: 3rem 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 580px){
+    .contact-section a{
+      font-size: 17px;
+    }
+    .contact-section .social a{
+      margin-left: 3px;
+      margin-right: 3px;
+      font-size: 13px;
+      letter-spacing: 0;
+    }
+
+
+    
+ 
+  }
+
+  
+ @media screen and (max-width: 580px){
+  
+  .hero-section{
+    font-size: 20px;
+    position: fixed;
+    background-image: url("../image/paws5.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+  }
+  .hero-section .dancing{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .hero-section h1{
+    font-size: 28px;
+    padding-bottom: 15px;
+  }   
+ }
+
