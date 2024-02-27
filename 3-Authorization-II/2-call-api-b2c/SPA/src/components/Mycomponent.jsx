@@ -19,6 +19,7 @@ import puppy3Img from '../image/puppys3.jpg';
 import puppy4Img from '../image/puppys4.jpg';
 import puppy5Img from '../image/puppys5.jpg';
 import puppy6Img from '../image/puppys6.jpg';
+
 import rabbit1Img from '../image/rabbits1.jpg';
 import rabbit2Img from '../image/rabbits2.jpg';
 import rabbit3Img from '../image/rabbits3.jpg';
@@ -135,13 +136,14 @@ const PageComponent = () => {
             document.body.classList.remove("nature-on");
         });
 
+      
         //rabbit portfolio page
        document.querySelector(".rabbit").addEventListener('click', function () {
             document.body.classList.add("rabbit-on");
         });
         document.querySelector(".rabbit-close").addEventListener('click', function () {
             document.body.classList.remove("rabbit-on");
-        });
+        }); 
 
         setIsLoggedIn(accounts.length > 0 );
     }, [accounts]); // Empty dependency array ensures that this effect runs only once after initial render
@@ -376,7 +378,7 @@ const PageComponent = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> 
               <div className="cursor" id="cursor" />
               <div className="cursor2" id="cursor2" />
               <div className="cursor3" id="cursor3" />
