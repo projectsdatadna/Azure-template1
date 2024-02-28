@@ -27,6 +27,8 @@ import rabbit4Img from '../image/rabbits4.jpg';
 import rabbit5Img from '../image/rabbits5.jpg';
 import rabbit6Img from '../image/rabbits6.jpg';
 
+import profileImg from '../image/prff.png';
+
 
 const PageComponent = () => {
   const { instance, accounts  } = useMsal();
@@ -192,11 +194,9 @@ const PageComponent = () => {
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-12 text-center">
-                        <img src="" alt="" />
+                        <img src={profileImg} alt="" />
                       </div>
-                      <div className="col-lg-8 text-center mt-4">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
-                      </div>
+                      
                       <div className="col-12 text-center">
                         <p><span>Karan</span></p>
                       </div>

@@ -6,7 +6,7 @@ export const PageLayout = (props) => {
         <>
             <MyComponent />
             <br />
-            {props.children}
+           
             <br />
            
         </>
