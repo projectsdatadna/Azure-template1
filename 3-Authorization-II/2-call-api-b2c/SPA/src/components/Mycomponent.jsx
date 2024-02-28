@@ -43,6 +43,8 @@ const PageComponent = () => {
     instance.logoutRedirect();
   };
 
+
+
   
 
     useEffect(() => {
@@ -117,34 +119,42 @@ const PageComponent = () => {
         // Travel portfolio page
         document.querySelector(".travel").addEventListener('click', function () {
             document.body.classList.add("travel-on");
+            document.querySelector(".travel-close").style.display = 'block';
         });
         document.querySelector(".travel-close").addEventListener('click', function () {
             document.body.classList.remove("travel-on");
+            document.querySelector(".travel-close").style.display = 'none';
         });
 
         // Wildlife portfolio page
         document.querySelector(".wildlife").addEventListener('click', function () {
             document.body.classList.add("wildlife-on");
+            document.querySelector(".wildlife-close").style.display = 'block';
         });
         document.querySelector(".wildlife-close").addEventListener('click', function () {
             document.body.classList.remove("wildlife-on");
+            document.querySelector(".wildlife-close").style.display = 'none';
         });
 
         // Nature portfolio page
         document.querySelector(".nature").addEventListener('click', function () {
             document.body.classList.add("nature-on");
+            document.querySelector(".nature-close").style.display = 'block';
         });
         document.querySelector(".nature-close").addEventListener('click', function () {
             document.body.classList.remove("nature-on");
+            document.querySelector(".nature-close").style.display = 'none';
         });
 
       
         //rabbit portfolio page
        document.querySelector(".rabbit").addEventListener('click', function () {
             document.body.classList.add("rabbit-on");
+            document.querySelector(".rabbit-close").style.display = 'block';
         });
         document.querySelector(".rabbit-close").addEventListener('click', function () {
             document.body.classList.remove("rabbit-on");
+            document.querySelector(".rabbit-close").style.display = 'none';
         }); 
 
         setIsLoggedIn(accounts.length > 0 );

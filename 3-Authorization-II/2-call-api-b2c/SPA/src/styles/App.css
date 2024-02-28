@@ -461,18 +461,36 @@ body{
  z-index: 10;
 }
 
+ body .travel-close {
+  
+  display: none; 
+}
+
+body .wildlife-close{
+  display: none;
+}
+
+body .nature-close{
+  display: none;
+}
+
+body .rabbit-close{
+  display: none;
+}
+
 
 
  .travel-close{
-   position: absolute;
-   top: 20px;
-   right: 20px;
+   
+   position: fixed;
+   top: 50px;
+   right: 50px;
    width: 30px;
    display: block;
    overflow: hidden;
    height: 30px;
-   -webkit-transition: all 200ms linear;
-   transition: all 200ms linear;
+   opacity: 2;
+   transition: opacity 2.0s ease;
    background-repeat: no-repeat;
    background-position: center;
    background-size: 36px 36px;
@@ -482,9 +500,9 @@ body{
  }
  
  .wildlife-close{
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  position: fixed;
+  top: 50px;
+  right: 50px;
   width: 30px;
   display: block;
   overflow: hidden;
@@ -501,9 +519,9 @@ body{
 
 
 .nature-close{
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  position: fixed;
+  top: 50px;
+  right: 50px;
   width: 30px;
   display: block;
   overflow: hidden;
@@ -520,9 +538,9 @@ body{
 
 
 .rabbit-close{
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  position: fixed;
+  top: 50px;
+  right: 50px;
   width: 30px;
   display: block;
   overflow: hidden;
@@ -696,5 +714,24 @@ body{
     padding-bottom: 15px;
   }  
   
+  .travel-close {
+    top: 25px;
+    right: 25px;
+  }
+
+  .wildlife-close{
+    top: 25px;
+    right: 25px;
+  }
+
+  .nature-close{
+    top: 25px;
+    right: 25px;
+  }
+
+  .rabbit-close{
+    top: 25px;
+    right: 25px;
+  }
  }
 
