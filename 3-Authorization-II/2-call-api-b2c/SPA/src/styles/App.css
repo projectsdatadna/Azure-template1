@@ -381,7 +381,7 @@ body{
  }
  .contact-section a{
      margin: 0 auto;
-   font-size: 32px;
+   font-size: 60px;
    font-weight: 900;
    letter-spacing: 1px;
    color: #fff;
@@ -676,7 +676,7 @@ body .rabbit-close{
 
   @media screen and (max-width: 580px){
     .contact-section a{
-      font-size: 17px;
+      font-size: 35px;
     }
     .contact-section .social a{
       margin-left: 3px;

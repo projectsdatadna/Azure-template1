@@ -220,12 +220,14 @@ const PageComponent = () => {
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-12 text-center">
-                        <a href="ds" className="hover-target">pawn@takecare.com</a>
+                        <a href="ds" className="hover-target">Paws</a>
                       </div>
                       <div className="col-12 text-center social mt-4">
                         <a href="dz" className="hover-target">Instagram</a>
                         <a href="sdd" className="hover-target">Twitter</a>
                         <a href="dsd" className="hover-target">Facebook</a>
+                        <a href="dsfa" className="hover-target">Whatsapp</a>
+                        <a href="dsf" className="hover-target">Gmail</a>
                       </div>
                     </div>
                   </div>
